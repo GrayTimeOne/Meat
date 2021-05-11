@@ -1,0 +1,30 @@
+table {
+  color:#4f050f;
+  border: 3px solid #ff0000;
+  border-radius: 8px;
+  border-top: 1px;
+  background:#c2c2c2;
+}
+#anchor {
+  font-style: italic;
+  color: #4f050f;
+}
+#axe{
+  font-weight: bold;
+  color: #0400ff;
+}
+a.button7 {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,50,129);
+  box-shadow: 0 -3px rgb(53,35,110) inset;
+  transition: 0.2s;
+}
+a.button7:hover { background: rgb(75, 50, 110); }
+a.button7:active {
+  background: rgb(33,50,90);
+  box-shadow: 0 3px rgb(33,35,90) inset;
+}
